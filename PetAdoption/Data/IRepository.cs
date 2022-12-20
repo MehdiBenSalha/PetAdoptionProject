@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace PetAdoption_dotnet.Data{
+namespace PetAdoption.Data{
 public interface IRepository<TEntity> where TEntity : class
     {   
        TEntity Get(int id); 

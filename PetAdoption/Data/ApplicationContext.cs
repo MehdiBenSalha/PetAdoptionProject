@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using PetAdoption_dotnet.Models;
+using PetAdoption.Models;
 using System.Diagnostics;
 
-namespace PetAdoption_dotnet.Data
+namespace PetAdoption.Data
 {
 
 public class ApplicationContext : DbContext {
@@ -12,7 +12,10 @@ public class ApplicationContext : DbContext {
         {
              if(_contextinstance==null)
              {var optionBuilder = new DbContextOptionsBuilder<ApplicationContext>();
-              optionBuilder.UseSqlite("Data Source=C:/Users/user/Documents/vscode_proj/charpproj/PetAdoption_dotnet/db/db.db");
+              // to get the absolute path of db
+              string fullPath = Path.GetFullPath(".");
+              // to get the absolute path of db
+              optionBuilder.UseSqlite("Data Source="+fullPath+"/db/db1.db");
               _contextinstance=new ApplicationContext(optionBuilder.Options);
              }
              return _contextinstance;
@@ -23,7 +26,7 @@ public class ApplicationContext : DbContext {
     private ApplicationContext(DbContextOptions o) : base(o){ 
         Debug.WriteLine("context    instantiation ");
     }
-   public DbSet<Vet>? Vet {get; set;} 
+   public DbSet<Vets> Vets {get; set;} 
 
 }
 }
