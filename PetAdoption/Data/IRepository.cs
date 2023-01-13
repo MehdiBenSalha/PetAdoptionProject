@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
 
-namespace PetAdoption.Data{
-public interface IRepository<TEntity> where TEntity : class
+namespace PetAdoption_dotnet.Data{
+public interface IRepository<TEntity> where TEntity : class 
     {   
        TEntity Get(int id); 
        IEnumerable<TEntity> GetAll();

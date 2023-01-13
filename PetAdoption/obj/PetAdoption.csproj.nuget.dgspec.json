@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mehdi\\Desktop\\PetAdoption\\PetAdoption\\PetAdoption.csproj": {}
+    "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mehdi\\Desktop\\PetAdoption\\PetAdoption\\PetAdoption.csproj": {
+    "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mehdi\\Desktop\\PetAdoption\\PetAdoption\\PetAdoption.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj",
         "projectName": "PetAdoption",
-        "projectPath": "C:\\Users\\Mehdi\\Desktop\\PetAdoption\\PetAdoption\\PetAdoption.csproj",
-        "packagesPath": "C:\\Users\\Mehdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mehdi\\Desktop\\PetAdoption\\PetAdoption\\obj\\",
+        "projectPath": "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[5.0.0-preview.8.20414.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
