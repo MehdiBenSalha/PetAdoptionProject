@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj": {}
+    "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj": {
+    "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj",
+        "projectUniqueName": "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj",
         "projectName": "PetAdoption",
-        "projectPath": "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\PetAdoption.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Documents\\vscode_proj\\charpproj\\PetAdoption\\PetAdoption\\obj\\",
+        "projectPath": "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj",
+        "packagesPath": "C:\\Users\\adamf\\.nuget\\packages\\",
+        "outputPath": "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\adamf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +52,10 @@
               "target": "Package",
               "version": "[3.1.32, )"
             },
+            "MySql.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.22, )"
@@ -74,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

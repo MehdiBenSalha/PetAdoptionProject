@@ -3,8 +3,7 @@ using PetAdoption_dotnet.Models;
 using System.Diagnostics;
 //using MySql.Data.MySqlClient;
 using MySql.Data.EntityFrameworkCore;
-
-
+using PetAdoption.Models;
 
 namespace PetAdoption_dotnet.Data
 {
@@ -21,7 +20,7 @@ public class ApplicationContext : DbContext {
             optionBuilder.UseMySQL(connectionString);
              //optionBuilder.UseSqlite("Data Source=C:/Users/user/Documents/vscode_proj/charpproj/PetAdoption_dotnet/db/db1.db");
               _contextinstance=new ApplicationContext(optionBuilder.Options);
-              _contextinstance.Database.EnsureCreated();
+              //_contextinstance.Database.EnsureCreated();
              }
              return _contextinstance;
         }
@@ -31,8 +30,11 @@ public class ApplicationContext : DbContext {
     private ApplicationContext(DbContextOptions o) : base(o){ 
         Debug.WriteLine("context    instantiation ");
     }
-   public DbSet<Vets> vets {get; set;} 
-   
+
+        public DbSet<User> users { get; set; }
+        public DbSet<Vet> vets {get; set;} 
+        public DbSet<Pet> pets { get; set;}
+        public DbSet<CentreAdressage> centreAdressages { get;set; }
 
 }
 }
