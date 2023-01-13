@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Mehdi\\Desktop\\PetAdoption_\\PetAdoption\\PetAdoption.csproj": {}
   },
   "projects": {
@@ -15,6 +16,22 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mehdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj": {}
+  },
+  "projects": {
+    "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj",
+        "projectName": "PetAdoption",
+        "projectPath": "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\PetAdoption.csproj",
+        "packagesPath": "C:\\Users\\adamf\\.nuget\\packages\\",
+        "outputPath": "C:\\Adam\\studies\\GL3\\drive 2022 2023\\sem 1\\frameworks\\projet\\PetAdoptionProject\\PetAdoption\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\adamf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 502f329065b92ea9984af3dcb46bdabe66cafd8f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +97,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> 502f329065b92ea9984af3dcb46bdabe66cafd8f
         }
       }
     }

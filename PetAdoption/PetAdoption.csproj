@@ -10,8 +10,11 @@
     <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.31" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="5.0.0-preview.8.20414.8" />
+<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
+=======
+>>>>>>> 502f329065b92ea9984af3dcb46bdabe66cafd8f
   </ItemGroup>
 </Project>

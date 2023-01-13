@@ -5,12 +5,20 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+<<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Mehdi\.nuget\packages\</NuGetPackageFolders>
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\adamf\.nuget\packages\</NuGetPackageFolders>
+>>>>>>> 502f329065b92ea9984af3dcb46bdabe66cafd8f
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <SourceRoot Include="C:\Users\Mehdi\.nuget\packages\" />
+=======
+    <SourceRoot Include="C:\Users\adamf\.nuget\packages\" />
+>>>>>>> 502f329065b92ea9984af3dcb46bdabe66cafd8f
   </ItemGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Content Include="$(NuGetPackageRoot)mysql.data.entityframework\8.0.31\contentFiles\any\netstandard2.1\app.config.transform" Condition="Exists('$(NuGetPackageRoot)mysql.data.entityframework\8.0.31\contentFiles\any\netstandard2.1\app.config.transform')">
@@ -34,6 +42,10 @@
     <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\netcoreapp3.0\EntityFramework.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< HEAD
     <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\Mehdi\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>
+=======
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\adamf\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>
+>>>>>>> 502f329065b92ea9984af3dcb46bdabe66cafd8f
   </PropertyGroup>
 </Project>

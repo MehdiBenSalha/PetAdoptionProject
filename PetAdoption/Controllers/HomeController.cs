@@ -18,7 +18,7 @@ namespace PetAdoption.Controllers
         }
         [AllowAnonymous]
         public IActionResult Index()
-        {   List<Vets> s = ApplicationContext.Instance.vets.ToList();
+        {   List<Vet> s = ApplicationContext.Instance.vets.ToList();
             foreach (var item in s)
             {
                 Console.WriteLine(item.name);

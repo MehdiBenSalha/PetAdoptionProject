@@ -25,7 +25,7 @@ public class VetController : Controller
     public IActionResult Vet()
     {  
         var repository=new VetRepository(ApplicationContext.Instance);
-        IEnumerable <Vets> vets =repository.GetAll();
+        IEnumerable <Vet> vets =repository.GetAll();
         
         //Vets v= repository.Get(1);
        
@@ -36,7 +36,7 @@ public class VetController : Controller
         public IActionResult add()
     {  
         var repository=new VetRepository(ApplicationContext.Instance);
-        Vets v=new Vets();
+        Vet v=new Vet();
         v.name=44;v.adress="alert";v.mail="id";
         repository.Insert(v);
         repository.Save();
@@ -51,7 +51,7 @@ public class VetController : Controller
     public IActionResult VetById(int id)
     {   
         var repository=new VetRepository(ApplicationContext.Instance);
-        Vets vet =repository.Get(id);
+        Vet vet =repository.Get(id);
         if(vet==null){
             TempData["warning"]="   Invalid id ";
             return RedirectToAction("Vet");
