@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "veterinaires : ";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+@model IEnumerable<PetAdoption_dotnet.Models.Vets>
+    
+<div class="row">
+      @foreach (var vet in Model)
+    {
+        <div class="col-sm-4" style="padding: 0.5%;">
+            <div class="card">
+                
+                <div style="height: 200px ;"><img class="card-img-top"  src="https://www.med.tn/img/noimg100x100.png" style="height: inherit;"  alt="Card image cap"></div>
+            <div class="card-body">
+               <a href="/Vet/@vet.id"> <h5 class="card-title">@vet.name</h5></a>
+                <p class="card-text">@vet.mail <br> @vet.adress</p>
+            </div>
+            </div>
+        </div>
+  }
+</div>
+
+
+</table>

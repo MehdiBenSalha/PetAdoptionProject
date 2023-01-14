@@ -1,0 +1,58 @@
+<br><br><br>
+
+
+     @model PetAdoption.Models.DbModels.Userr 
+    
+    
+    @if(Model!=null)  {
+<div class="row">
+    
+<div class="card col">
+  <div class="card-header">
+    <h5>@Model.name</h5>
+  </div>
+  <div class="card-body">
+   <h6 >  email :  @Model.adress</h6> <br>
+   <h6 >datebirth :  @Model.adress  </h6><br>
+   <button type="button" class="btn btn-success">@Model.number</button>
+   <a target="_dir" href="@Model.userrId" class="btn btn-outline-info">Mail</a>
+  </div>
+</div>
+</div>
+ }
+
+  <div class="d-flex">
+    @foreach (var vet in Model.vett)
+    {
+        <div class="col-sm-4" style="padding: 0.5%;">
+            <div class="card">
+                
+                <div style="height: 200px ;"><img class="card-img-top"  src="@vet.img" style="height: inherit;"  alt="Card image cap"></div>
+            <div class="card-body">
+               <a href="/Vet/@vet.mail"> <h5 class="card-title">@vet.name</h5></a>
+                <p class="card-text">@vet.mail <br> @vet.adress</p>
+            </div>
+            <a  href="/Vet/update/@vet.vetId" class="btn btn-success " style="background-color: green;"> update </a>
+            <a  href="/vet/Delete/@vet.vetId" class="btn btn-danger "  style="background-color: red;">Delete </a>
+            </div>
+        </div>
+  }
+      @foreach (var vet in Model.pets)
+    {
+        <div class="col-sm-4" style="padding: 0.5%;">
+            <div class="card">
+                
+                <div style="height: 200px ;"><img class="card-img-top"  src="@vet.img" style="height: inherit;"  alt="Card image cap"></div>
+            <div class="card-body">
+               <a href="/Vet/@vet.img"> <h5 class="card-title">@vet.race</h5></a>
+                <p class="card-text">@vet.petId <br> @vet.mail</p>
+            </div>
+             <a  href="/Pet/update/@vet.petId" class="btn btn-success " style="background-color: green;"> update </a>
+            <a  href="/Pet/Delete/@vet.petId" class="btn btn-danger " style="background-color: red;" >Delete </a>
+            </div>
+        </div>
+  }
+  </div>
+
+    
+ 

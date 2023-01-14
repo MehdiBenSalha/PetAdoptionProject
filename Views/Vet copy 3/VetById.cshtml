@@ -1,0 +1,25 @@
+<br><br><br>
+
+
+     @model PetAdoption_dotnet.Models.Vets 
+    
+    @if(Model!=null)  {
+<div class="row">
+    <div class="col-3" style="padding: 1%;"><img class="card-img-top"  src="https://www.med.tn/img/noimg100x100.png" style="height: inherit;"  alt="Card image cap">
+     </div>
+<div class="card col">
+  <div class="card-header">
+    <h5>@Model.name</h5>
+  </div>
+  <div class="card-body">
+   <h6 >  email :  @Model.mail</h6> <br>
+   <h6 >datebirth :  @Model.adress  </h6><br>
+   <button type="button" class="btn btn-success">@Model.number</button>
+   <a target="_dir" href="@Model.localisation" class="btn btn-outline-info">itinéraire</a>
+  </div>
+</div>
+</div>
+ }
+
+    
+ 

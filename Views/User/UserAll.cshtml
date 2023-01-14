@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Users : ";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+@model IEnumerable<PetAdoption.Models.DbModels.Userr>
+    
+<div class="row">
+      @foreach (var user in Model)
+    {
+
+         <div class="col-sm-3" style="padding:2%">
+            <div class="card" style="width: 15rem ;  background-color:aliceblue">
+            <div class="card-body">
+                <a href="/User/@user.userrId"> <h5 class="card-title">@user.userrId</h5></a>
+                <p class="card-text">@user.name <br> @user.adress</p>
+              </div>
+        </div>
+        </div>
+ 
+  }
+</div>
+
+
+</table>

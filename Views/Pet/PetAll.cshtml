@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = " Pets ";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+                <a  asp-controller="Pet" asp-action="Add" class="btn btn-dark " > Add New Pet </a>
+
+</div>
+@model IEnumerable<PetAdoption.Models.DbModels.Pet>
+
+
+   
+<div class="row">
+      @foreach (var vet in Model)
+    {    
+        <div class="col-sm-3" style="padding:2%">
+            <div class="card" style="width: 15rem ;  background-color:aliceblue">
+                <img class="card-img-top" src="@vet.img"  alt="Card image cap">
+            <div class="card-body">
+                <a href="/Pet/@vet.petId"> <h5 class="card-title">@vet.type</h5></a>
+                <p class="card-text">@vet.userAdress <br> @vet.mail</p>
+              </div>
+        </div>
+        </div>
+  }
+</div>
+
+

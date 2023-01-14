@@ -1,0 +1,61 @@
+﻿@model PetAdoption.Models.DbModels.Pet
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Rescue Me</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProjetDotNet.styles.css" asp-append-version="true" />
+    <link href="~/css/index.css" rel="stylesheet" asp-append-version="true">
+</head>
+<body class="text-center">
+
+    <main class="form-signin w-50 m-auto" style="background-color: transparent;">
+        @using (Html.BeginForm("AddForm", "Pet", FormMethod.Post))
+        {
+
+            <h1 class="h3 mb-3 fw-normal">New Pet</h1>
+            @if (ViewBag.errorMessage != null)
+            {
+                <div class="alert alert-danger" role="alert">
+                    @ViewBag.errorMessage
+                </div>
+            }
+            <div class="form-floating p-3">
+                @Html.TextBoxFor(m => m.race, new { @class = "form-control", @type="text", @id="floatingInput", required = "required" })
+                <label for="floatingInput">Race</label>
+            </div>
+            <div class="form-floating p-3">
+                @Html.TextBoxFor(m => m.userAdress, new { @class = "form-control", @type="text", @id="floatingInput", required = "required" })
+                <label for="floatingInput">userAdress</label>
+            </div>
+            <div class="form-floating p-3">
+                @Html.TextBoxFor(m => m.mail, new { @class = "form-control", @type="email", @id="floatingInput", required = "required" })
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating p-3">
+                @Html.TextBoxFor(m => m.number, new { @class = "form-control", @type="text", @id="floatingPassword", required = "required" })
+                <label for="floatingPassword">Number</label>
+            </div>
+            <div class="form-floating p-3">
+                @Html.TextBoxFor(m => m.type, new { @class = "form-control", @type="text", @id="floatingInput", required = "required" })
+                <label for="floatingInput">Type</label>
+            </div>
+            <div class="form-floating p-3">
+                @Html.TextBoxFor(m => m.img, new { @class = "form-control", @type="text", @id="floatingInput", required = "required" })
+                <label for="floatingInput">Image Link</label>
+            </div>
+
+
+
+            <button class="w-100 btn btn-lg btn-dark mt-2" type="submit">Add</button>
+         
+        }
+    </main>
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = " Pets ";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+@model IEnumerable<PetAdoption.Models.DbModels.Pet>
+    
+<div class="row">
+      @foreach (var pet in Model)
+    {
+        <div class="col-sm-3" style="padding:2%">
+            <div class="card" style="width: 15rem ;  background-color:aliceblue">
+                <img class="card-img-top" src="@pet.img" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        </div>
+  }
+</div>
+
+
