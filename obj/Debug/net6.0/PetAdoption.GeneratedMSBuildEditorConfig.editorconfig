@@ -9,141 +9,141 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PetAdoption
 build_property.RootNamespace = PetAdoption
-build_property.ProjectDir = C:\Users\user\Desktop\Nouveau dossier\PetAdoptionProject\PetAdoption\
+build_property.ProjectDir = c:\Users\user\Desktop\Nouveau dossier\PetAdoptionProject\PetAdoption\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\Nouveau dossier\PetAdoptionProject\PetAdoption
+build_property.MSBuildProjectDirectory = c:\Users\user\Desktop\Nouveau dossier\PetAdoptionProject\PetAdoption
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Account/CheckAccount.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Account/CheckAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGVja0FjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Account/Index.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Account/Vet.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Account/Vet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/Add.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJlc3NhZ2VcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/CentreDressageById.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/CentreDressageById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJlc3NhZ2VcQ2VudHJlRHJlc3NhZ2VCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/Dressage.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/Dressage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJlc3NhZ2VcRHJlc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/DressageAll.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/DressageAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJlc3NhZ2VcRHJlc3NhZ2VBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/Index.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJlc3NhZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/update.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Dressage/update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJlc3NhZ2VcdXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Home/Index.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Home/Privacy.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/Add.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/Index.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/Pet.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/Pet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XFBldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/PetAll.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/PetAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XFBldEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/PetById.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/PetById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XFBldEJ5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/update.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Pet/update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0XHVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Shared/Error.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/User/Index.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/User/UserAll.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/User/UserAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyQWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/User/UserById.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/User/UserById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyQnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet copy 3/Index.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet copy 3/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0IGNvcHkgM1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet copy 3/VetAll.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet copy 3/VetAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0IGNvcHkgM1xWZXRBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet copy 3/VetById.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet copy 3/VetById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0IGNvcHkgM1xWZXRCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/Add.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0XEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/Index.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/update.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0XHVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/VetAll.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/VetAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0XFZldEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/VetById.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Vet/VetById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmV0XFZldEJ5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/_ViewImports.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/_ViewStart.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Shared/_Layout.cshtml]
+[c:/Users/user/Desktop/Nouveau dossier/PetAdoptionProject/PetAdoption/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-87lmc8w2r1
